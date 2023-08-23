@@ -1,7 +1,7 @@
 
-class AddJournalModel {
+class JournalModel {
 
-  AddJournalModel({
+  JournalModel({
     this.docId,
     this.title,
     this.content,
@@ -11,7 +11,7 @@ class AddJournalModel {
   String? title;
   String? content;
 
-  factory AddJournalModel.fromJson(Map<String, dynamic> json) => AddJournalModel(
+  factory JournalModel.fromJson(Map<String, dynamic> json) => JournalModel(
     docId: json["docID"],
     title: json["title"],
     content: json["content"],
