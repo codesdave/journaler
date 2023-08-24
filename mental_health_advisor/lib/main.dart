@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_advisor/screens/login_page.dart';
+import 'package:mental_health_advisor/screens/sign_in_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,7 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: LoginPage(),
+      debugShowCheckedModeBanner: false,
+      home: SignInScreen(),
     );
   }
 }
