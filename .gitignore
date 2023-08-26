@@ -45,3 +45,5 @@ app.*.map.json
 ios/Flutter/Debug.xcconfig
 ios/Flutter/Release.xcconfig
 ios/Podfile
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
