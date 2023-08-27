@@ -47,3 +47,6 @@ ios/Flutter/Release.xcconfig
 ios/Podfile
 ios/Flutter/Debug.xcconfig
 ios/Flutter/Release.xcconfig
+*.cc
+*.swift
+*.swift
