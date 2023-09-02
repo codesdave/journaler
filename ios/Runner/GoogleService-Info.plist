@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>267229034807-e2d9b1tgas2dfnn2kva71ro29j81j9o3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.267229034807-e2d9b1tgas2dfnn2kva71ro29j81j9o3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChUoIVfLD6kJ_A3LuhO0wKE5lhEHTGZ8E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>267229034807</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.journaler</string>
+	<key>PROJECT_ID</key>
+	<string>mentalhealthadvisor-9b7c2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mentalhealthadvisor-9b7c2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:267229034807:ios:548eb61090558bb8f402b2</string>
+</dict>
+</plist>
