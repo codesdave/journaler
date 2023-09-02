@@ -1,5 +1,4 @@
-
-import 'package:mental_health_advisor/main.dart' as app;
+import 'package:journaler/main.dart' as app;
 
 import '../main.dart';
 
