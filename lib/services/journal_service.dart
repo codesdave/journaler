@@ -20,9 +20,9 @@ class JournalService {
   Future<List<Journal>> readAllJournals() async {
     QuerySnapshot querySnapshot = await _firestore.collection(collectionName).get();
     List<Journal> journals = [];
-    querySnapshot.docs.forEach((doc) {
+    for (var doc in querySnapshot.docs) {
       journals.add(Journal.fromJson(doc.data() as Map<String, dynamic>));
-    });
+    }
     return journals;
   }
 
@@ -49,9 +49,9 @@ class JournalService {
   Future<List<Journal>> readAllJournalsByUser(String userId) async {
     QuerySnapshot querySnapshot = await _firestore.collection(collectionName).where('uid', isEqualTo: userId).get();
     List<Journal> journals = [];
-    querySnapshot.docs.forEach((doc) {
+    for (var doc in querySnapshot.docs) {
       journals.add(Journal.fromJson(doc.data() as Map<String, dynamic>));
-    });
+    }
     return journals;
   }
 }
