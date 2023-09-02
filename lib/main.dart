@@ -1,6 +1,11 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: avoid_print
 
-void main(List<String> args, Flavor flavor) {
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:journaler/firebase_options.dart';
+
+void main(List<String> args, Flavor flavor) async {
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   loadFirebaseSetUpBasedonFlavor(flavor);
   runApp(const MyApp());
 }
