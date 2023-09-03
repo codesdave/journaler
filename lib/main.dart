@@ -4,7 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:journaler/firebase_options.dart';
 
-void main(List<String> args, Flavor flavor) async {
+Future<dynamic> main(List<String> args, Flavor flavor) async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   loadFirebaseSetUpBasedonFlavor(flavor);
   runApp(const MyApp());
